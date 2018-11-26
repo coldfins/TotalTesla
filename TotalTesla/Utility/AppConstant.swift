@@ -11,6 +11,8 @@ import UIKit
 
 let utils : CommonUtility = CommonUtility()
 
+let MESSAGE = "Total Tesla first commit----"
+
 let kAppName = "TotalTesla"
 let themeColor = UIColor(red:0.00, green:0.62, blue:0.95, alpha:1.0)
 
