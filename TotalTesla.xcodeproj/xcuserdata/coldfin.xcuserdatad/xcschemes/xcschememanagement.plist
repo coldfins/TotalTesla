@@ -7,7 +7,25 @@
 		<key>TotalTesla.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>15</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6D5461C62147BB2400B4FE54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D5461DA2147BB2B00B4FE54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D5461E52147BB2B00B4FE54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

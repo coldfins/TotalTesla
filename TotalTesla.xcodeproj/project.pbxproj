@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236BEDBC6EDB24D09500EA57 /* Pods_TotalTeslaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F936549ABA0D78289A686DA7 /* Pods_TotalTeslaUITests.framework */; };
+		2C71ABE76B42B337B6C16891 /* Pods_TotalTesla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9331B56D6FB04EEA809BB1 /* Pods_TotalTesla.framework */; };
+		6D13AF0D217AEEF600A7FC99 /* AFURLSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D13AF0C217AEEF600A7FC99 /* AFURLSource.swift */; };
+		6D396E72219D780500A3A03A /* CarDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D396E71219D780500A3A03A /* CarDetailModel.swift */; };
 		6D5461CB2147BB2400B4FE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5461CA2147BB2400B4FE54 /* AppDelegate.swift */; };
 		6D5461CD2147BB2400B4FE54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5461CC2147BB2400B4FE54 /* ViewController.swift */; };
 		6D5461D02147BB2400B4FE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5461CE2147BB2400B4FE54 /* Main.storyboard */; };
@@ -14,6 +18,133 @@
 		6D5461D52147BB2B00B4FE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5461D32147BB2B00B4FE54 /* LaunchScreen.storyboard */; };
 		6D5461E02147BB2B00B4FE54 /* TotalTeslaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5461DF2147BB2B00B4FE54 /* TotalTeslaTests.swift */; };
 		6D5461EB2147BB2B00B4FE54 /* TotalTeslaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5461EA2147BB2B00B4FE54 /* TotalTeslaUITests.swift */; };
+		6D5461FA2147E56D00B4FE54 /* RegisterUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5461F92147E56D00B4FE54 /* RegisterUserVC.swift */; };
+		6D5CA535219BE25B00EF643B /* LinkEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CA534219BE25B00EF643B /* LinkEmailVC.swift */; };
+		6D5CA537219BF24D00EF643B /* ProfileInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CA536219BF24D00EF643B /* ProfileInfoVC.swift */; };
+		6D8C4358219ADE96009A53EA /* autopilot_2.0_eap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4311219ADE96009A53EA /* autopilot_2.0_eap.png */; };
+		6D8C4359219ADE96009A53EA /* lighting_enhancements_and_accents.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4312219ADE96009A53EA /* lighting_enhancements_and_accents.png */; };
+		6D8C435A219ADE96009A53EA /* autopilot_2_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4313219ADE96009A53EA /* autopilot_2_5.png */; };
+		6D8C435B219ADE96009A53EA /* liftgate_assist.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4314219ADE96009A53EA /* liftgate_assist.png */; };
+		6D8C435C219ADE96009A53EA /* Premium Ultra High Fidelity Sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4315219ADE96009A53EA /* Premium Ultra High Fidelity Sound.png */; };
+		6D8C435D219ADE96009A53EA /* 40_amp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4316219ADE96009A53EA /* 40_amp.png */; };
+		6D8C435E219ADE96009A53EA /* wood_trim_alternatives.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4317219ADE96009A53EA /* wood_trim_alternatives.png */; };
+		6D8C435F219ADE96009A53EA /* sub_zero_cold_Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4318219ADE96009A53EA /* sub_zero_cold_Weather.png */; };
+		6D8C4360219ADE96009A53EA /* paid_supercharging.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4319219ADE96009A53EA /* paid_supercharging.png */; };
+		6D8C4361219ADE96009A53EA /* subwoofer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C431A219ADE96009A53EA /* subwoofer.png */; };
+		6D8C4362219ADE96009A53EA /* frunk_assist.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C431B219ADE96009A53EA /* frunk_assist.png */; };
+		6D8C4363219ADE96009A53EA /* free_unlimited.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C431C219ADE96009A53EA /* free_unlimited.png */; };
+		6D8C4364219ADE96009A53EA /* radar_ detector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C431D219ADE96009A53EA /* radar_ detector.png */; };
+		6D8C4365219ADE96009A53EA /* 48_amp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C431E219ADE96009A53EA /* 48_amp.png */; };
+		6D8C4366219ADE96009A53EA /* autopilot_2_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C431F219ADE96009A53EA /* autopilot_2_0.png */; };
+		6D8C4367219ADE96009A53EA /* hidden_front_license_plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4320219ADE96009A53EA /* hidden_front_license_plate.png */; };
+		6D8C4368219ADE96009A53EA /* roof_ rack.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4321219ADE96009A53EA /* roof_ rack.png */; };
+		6D8C4369219ADE96009A53EA /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4322219ADE96009A53EA /* power.png */; };
+		6D8C436A219ADE96009A53EA /* full_self_driving.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4323219ADE96009A53EA /* full_self_driving.png */; };
+		6D8C436B219ADE96009A53EA /* center_console.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4324219ADE96009A53EA /* center_console.png */; };
+		6D8C436C219ADE96009A53EA /* brakes.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4325219ADE96009A53EA /* brakes.png */; };
+		6D8C436D219ADE96009A53EA /* AWD.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4326219ADE96009A53EA /* AWD.png */; };
+		6D8C436E219ADE96009A53EA /* 80_amp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4327219ADE96009A53EA /* 80_amp.png */; };
+		6D8C436F219ADE96009A53EA /* speakers.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4328219ADE96009A53EA /* speakers.png */; };
+		6D8C4370219ADE96009A53EA /* Metal Roof.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4329219ADE96009A53EA /* Metal Roof.png */; };
+		6D8C4371219ADE96009A53EA /* custom_interior.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C432A219ADE96009A53EA /* custom_interior.png */; };
+		6D8C4372219ADE96009A53EA /* front_curb_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C432B219ADE96009A53EA /* front_curb_camera.png */; };
+		6D8C4373219ADE96009A53EA /* body_aero_kit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C432C219ADE96009A53EA /* body_aero_kit.png */; };
+		6D8C4374219ADE96009A53EA /* horn_replacement_and_pedestrian_horns.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C432D219ADE96009A53EA /* horn_replacement_and_pedestrian_horns.png */; };
+		6D8C4375219ADE96009A53EA /* autopilot_1_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C432E219ADE96009A53EA /* autopilot_1_0.png */; };
+		6D8C4376219ADE96009A53EA /* suspension.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C432F219ADE96009A53EA /* suspension.png */; };
+		6D8C4377219ADE96009A53EA /* 72_amp_charger.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4330219ADE96009A53EA /* 72_amp_charger.png */; };
+		6D8C4378219ADE96009A53EA /* roof.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4331219ADE96009A53EA /* roof.png */; };
+		6D8C4379219ADE96009A53EA /* paint_protection_film.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4332219ADE96009A53EA /* paint_protection_film.png */; };
+		6D8C437A219ADE96009A53EA /* ludicrous_speed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4333219ADE96009A53EA /* ludicrous_speed.png */; };
+		6D8C437B219ADE96009A53EA /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4334219ADE96009A53EA /* other.png */; };
+		6D8C437C219ADE96009A53EA /* 80_amp_charger_dual.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4335219ADE96009A53EA /* 80_amp_charger_dual.png */; };
+		6D8C437D219ADE96009A53EA /* partial_freepartial_paid.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4336219ADE96009A53EA /* partial_freepartial_paid.png */; };
+		6D8C437E219ADE96009A53EA /* RWD.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4337219ADE96009A53EA /* RWD.png */; };
+		6D8C437F219ADE96009A53EA /* premium_interior_lighting.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4338219ADE96009A53EA /* premium_interior_lighting.png */; };
+		6D8C4380219ADE96009A53EA /* wraps_and_custom_paint.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4339219ADE96009A53EA /* wraps_and_custom_paint.png */; };
+		6D8C4381219ADE96009A53EA /* manual.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C433A219ADE96009A53EA /* manual.png */; };
+		6D8C4382219ADE96009A53EA /* AutoPilot 3.0 (EAP).png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C433B219ADE96009A53EA /* AutoPilot 3.0 (EAP).png */; };
+		6D8C4383219ADE96009A53EA /* towing.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C433C219ADE96009A53EA /* towing.png */; };
+		6D8C4384219ADE96009A53EA /* smart_air_suspension.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C433D219ADE96009A53EA /* smart_air_suspension.png */; };
+		6D8C4385219ADE96009A53EA /* spoiler.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C433E219ADE96009A53EA /* spoiler.png */; };
+		6D8C4386219ADE96009A53EA /* wireless_car_charging.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C433F219ADE96009A53EA /* wireless_car_charging.png */; };
+		6D8C4387219ADE96009A53EA /* tires.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4340219ADE96009A53EA /* tires.png */; };
+		6D8C4388219ADE96009A53EA /* 48_amp_charger.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4341219ADE96009A53EA /* 48_amp_charger.png */; };
+		6D8C4389219ADE96009A53EA /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4342219ADE96009A53EA /* audio.png */; };
+		6D8C438A219ADE96009A53EA /* window_tint.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4343219ADE96009A53EA /* window_tint.png */; };
+		6D8C438B219ADE96009A53EA /* rear_facing_seats.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4344219ADE96009A53EA /* rear_facing_seats.png */; };
+		6D8C438C219ADE96009A53EA /* 72_amp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4345219ADE96009A53EA /* 72_amp.png */; };
+		6D8C438D219ADE96009A53EA /* coat_hooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4346219ADE96009A53EA /* coat_hooks.png */; };
+		6D8C438E219ADE96009A53EA /* parcel_shelf_auto_lift.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4347219ADE96009A53EA /* parcel_shelf_auto_lift.png */; };
+		6D8C438F219ADE96009A53EA /* partial_free.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4348219ADE96009A53EA /* partial_free.png */; };
+		6D8C4390219ADE96009A53EA /* parking_assist.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4349219ADE96009A53EA /* parking_assist.png */; };
+		6D8C4391219ADE96009A53EA /* autopilot_1.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C434A219ADE96009A53EA /* autopilot_1.0.png */; };
+		6D8C4392219ADE96009A53EA /* dashcams.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C434B219ADE96009A53EA /* dashcams.png */; };
+		6D8C4393219ADE96009A53EA /* exterior_chrome_changes_blackout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C434C219ADE96009A53EA /* exterior_chrome_changes_blackout.png */; };
+		6D8C4394219ADE96009A53EA /* Sunroof.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C434D219ADE96009A53EA /* Sunroof.png */; };
+		6D8C4395219ADE96009A53EA /* bike_or_trailer_hitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C434E219ADE96009A53EA /* bike_or_trailer_hitch.png */; };
+		6D8C4396219ADE96009A53EA /* pedals.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C434F219ADE96009A53EA /* pedals.png */; };
+		6D8C4397219ADE96009A53EA /* wheels.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4350219ADE96009A53EA /* wheels.png */; };
+		6D8C4398219ADE96009A53EA /* nose_cone_grill_replacement.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4351219ADE96009A53EA /* nose_cone_grill_replacement.png */; };
+		6D8C4399219ADE96009A53EA /* wireless_phone_charging.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4352219ADE96009A53EA /* wireless_phone_charging.png */; };
+		6D8C439A219ADE96009A53EA /* 40_amp_charger_single.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4353219ADE96009A53EA /* 40_amp_charger_single.png */; };
+		6D8C439B219ADE96009A53EA /* performance_upgrade.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4354219ADE96009A53EA /* performance_upgrade.png */; };
+		6D8C439C219ADE96009A53EA /* coil.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4355219ADE96009A53EA /* coil.png */; };
+		6D8C439D219ADE96009A53EA /* autopilot_2.5_eap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4356219ADE96009A53EA /* autopilot_2.5_eap.png */; };
+		6D8C439E219ADE96009A53EA /* phone_accessory_mounting.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C4357219ADE96009A53EA /* phone_accessory_mounting.png */; };
+		6DAFC302214B77C20053507C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFC301214B77C20053507C /* LoginVC.swift */; };
+		6DAFC305214B78100053507C /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFC304214B78100053507C /* CommonUtility.swift */; };
+		6DAFC309214B85830053507C /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFC308214B85830053507C /* AppConstant.swift */; };
+		6DAFC30B214B8FAC0053507C /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DAFC30A214B8FAC0053507C /* credentials.plist */; };
+		6DAFC30D214B942E0053507C /* InstagramLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFC30C214B942E0053507C /* InstagramLoginVC.swift */; };
+		6DB9941021706BE200BB93CB /* NoteableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9940E21706BE100BB93CB /* NoteableCell.swift */; };
+		6DB9941121706BE200BB93CB /* NoteableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9940F21706BE100BB93CB /* NoteableCell.xib */; };
+		6DB994142170A69B00BB93CB /* MarketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB994122170A69B00BB93CB /* MarketCell.xib */; };
+		6DB994152170A69B00BB93CB /* MarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB994132170A69B00BB93CB /* MarketCell.swift */; };
+		6DD9E6FE214F7CCE00BED1F8 /* KeyboardPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9E6FD214F7CCE00BED1F8 /* KeyboardPicker.swift */; };
+		6DE732F4216B241F00ED24F1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732CC216B241F00ED24F1 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		6DE732F5216B241F00ED24F1 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732CD216B241F00ED24F1 /* NVActivityIndicatorPresenter.swift */; };
+		6DE732F6216B241F00ED24F1 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732CF216B241F00ED24F1 /* NVActivityIndicatorShape.swift */; };
+		6DE732F7216B241F00ED24F1 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D0216B241F00ED24F1 /* NVActivityIndicatorView.swift */; };
+		6DE732F8216B241F00ED24F1 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D1216B241F00ED24F1 /* NVActivityIndicatorViewable.swift */; };
+		6DE732FA216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D4216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		6DE732FB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D5216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		6DE732FC216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D6216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		6DE732FD216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D7216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		6DE732FE216B241F00ED24F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D8216B241F00ED24F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		6DE732FF216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732D9216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		6DE73300216B241F00ED24F1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732DA216B241F00ED24F1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		6DE73301216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732DB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		6DE73302216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732DC216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		6DE73303216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732DD216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		6DE73304216B241F00ED24F1 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732DE216B241F00ED24F1 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		6DE73305216B241F00ED24F1 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732DF216B241F00ED24F1 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		6DE73306216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E0216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		6DE73307216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E1216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		6DE73308216B241F00ED24F1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E2216B241F00ED24F1 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		6DE73309216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E3216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		6DE7330A216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E4216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		6DE7330B216B241F00ED24F1 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E5216B241F00ED24F1 /* NVActivityIndicatorAnimationBlank.swift */; };
+		6DE7330C216B241F00ED24F1 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E6216B241F00ED24F1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		6DE7330D216B241F00ED24F1 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E7216B241F00ED24F1 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		6DE7330E216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E8216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		6DE7330F216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732E9216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		6DE73310216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732EA216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		6DE73311216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732EB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		6DE73312216B241F00ED24F1 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732EC216B241F00ED24F1 /* NVActivityIndicatorAnimationPacman.swift */; };
+		6DE73313216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732ED216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		6DE73314216B241F00ED24F1 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732EE216B241F00ED24F1 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		6DE73315216B241F00ED24F1 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732EF216B241F00ED24F1 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		6DE73316216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732F0216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		6DE73317216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732F1216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		6DE73318216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732F2216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		6DE73319216B241F00ED24F1 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE732F3216B241F00ED24F1 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		6DEED692214A4872003BF1B4 /* RegisterCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEED691214A4872003BF1B4 /* RegisterCarVC.swift */; };
+		6DEED694214A5738003BF1B4 /* BrowseCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEED693214A5738003BF1B4 /* BrowseCarVC.swift */; };
+		6DEED698214A614F003BF1B4 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEED697214A614F003BF1B4 /* SignupVC.swift */; };
+		6DEED69A214A67B1003BF1B4 /* CarDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEED699214A67B1003BF1B4 /* CarDetailVC.swift */; };
+		6DEED69C214A8125003BF1B4 /* Tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DEED69B214A8124003BF1B4 /* Tesla.jpg */; };
+		CA2E6287F5B9FF8F4B3004FF /* Pods_TotalTeslaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65596CB6D4C7DA2289C66AF /* Pods_TotalTeslaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +165,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E45CB7AE9799BE16CB42D22 /* Pods-TotalTeslaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotalTeslaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TotalTeslaTests/Pods-TotalTeslaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		214D80A48114525A86FEEE20 /* Pods-TotalTesla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotalTesla.release.xcconfig"; path = "Pods/Target Support Files/Pods-TotalTesla/Pods-TotalTesla.release.xcconfig"; sourceTree = "<group>"; };
+		55DBFAFD94E27B30927173CF /* Pods-TotalTeslaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotalTeslaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TotalTeslaUITests/Pods-TotalTeslaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D9331B56D6FB04EEA809BB1 /* Pods_TotalTesla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotalTesla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D13AF0C217AEEF600A7FC99 /* AFURLSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFURLSource.swift; sourceTree = "<group>"; };
+		6D396E71219D780500A3A03A /* CarDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailModel.swift; sourceTree = "<group>"; };
+		6D3E404421A7E20A002E89D3 /* TotalTesla-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TotalTesla-Bridging-Header.h"; sourceTree = "<group>"; };
 		6D5461C72147BB2400B4FE54 /* TotalTesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotalTesla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5461CA2147BB2400B4FE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D5461CC2147BB2400B4FE54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +185,139 @@
 		6D5461E62147BB2B00B4FE54 /* TotalTeslaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotalTeslaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5461EA2147BB2B00B4FE54 /* TotalTeslaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalTeslaUITests.swift; sourceTree = "<group>"; };
 		6D5461EC2147BB2B00B4FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5461F92147E56D00B4FE54 /* RegisterUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserVC.swift; sourceTree = "<group>"; };
+		6D5CA534219BE25B00EF643B /* LinkEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkEmailVC.swift; sourceTree = "<group>"; };
+		6D5CA536219BF24D00EF643B /* ProfileInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoVC.swift; sourceTree = "<group>"; };
+		6D8C4311219ADE96009A53EA /* autopilot_2.0_eap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autopilot_2.0_eap.png; sourceTree = "<group>"; };
+		6D8C4312219ADE96009A53EA /* lighting_enhancements_and_accents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lighting_enhancements_and_accents.png; sourceTree = "<group>"; };
+		6D8C4313219ADE96009A53EA /* autopilot_2_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autopilot_2_5.png; sourceTree = "<group>"; };
+		6D8C4314219ADE96009A53EA /* liftgate_assist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liftgate_assist.png; sourceTree = "<group>"; };
+		6D8C4315219ADE96009A53EA /* Premium Ultra High Fidelity Sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Premium Ultra High Fidelity Sound.png"; sourceTree = "<group>"; };
+		6D8C4316219ADE96009A53EA /* 40_amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40_amp.png; sourceTree = "<group>"; };
+		6D8C4317219ADE96009A53EA /* wood_trim_alternatives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_trim_alternatives.png; sourceTree = "<group>"; };
+		6D8C4318219ADE96009A53EA /* sub_zero_cold_Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sub_zero_cold_Weather.png; sourceTree = "<group>"; };
+		6D8C4319219ADE96009A53EA /* paid_supercharging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paid_supercharging.png; sourceTree = "<group>"; };
+		6D8C431A219ADE96009A53EA /* subwoofer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subwoofer.png; sourceTree = "<group>"; };
+		6D8C431B219ADE96009A53EA /* frunk_assist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frunk_assist.png; sourceTree = "<group>"; };
+		6D8C431C219ADE96009A53EA /* free_unlimited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_unlimited.png; sourceTree = "<group>"; };
+		6D8C431D219ADE96009A53EA /* radar_ detector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radar_ detector.png"; sourceTree = "<group>"; };
+		6D8C431E219ADE96009A53EA /* 48_amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 48_amp.png; sourceTree = "<group>"; };
+		6D8C431F219ADE96009A53EA /* autopilot_2_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autopilot_2_0.png; sourceTree = "<group>"; };
+		6D8C4320219ADE96009A53EA /* hidden_front_license_plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden_front_license_plate.png; sourceTree = "<group>"; };
+		6D8C4321219ADE96009A53EA /* roof_ rack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roof_ rack.png"; sourceTree = "<group>"; };
+		6D8C4322219ADE96009A53EA /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		6D8C4323219ADE96009A53EA /* full_self_driving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full_self_driving.png; sourceTree = "<group>"; };
+		6D8C4324219ADE96009A53EA /* center_console.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center_console.png; sourceTree = "<group>"; };
+		6D8C4325219ADE96009A53EA /* brakes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brakes.png; sourceTree = "<group>"; };
+		6D8C4326219ADE96009A53EA /* AWD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AWD.png; sourceTree = "<group>"; };
+		6D8C4327219ADE96009A53EA /* 80_amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80_amp.png; sourceTree = "<group>"; };
+		6D8C4328219ADE96009A53EA /* speakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speakers.png; sourceTree = "<group>"; };
+		6D8C4329219ADE96009A53EA /* Metal Roof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Metal Roof.png"; sourceTree = "<group>"; };
+		6D8C432A219ADE96009A53EA /* custom_interior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_interior.png; sourceTree = "<group>"; };
+		6D8C432B219ADE96009A53EA /* front_curb_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front_curb_camera.png; sourceTree = "<group>"; };
+		6D8C432C219ADE96009A53EA /* body_aero_kit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_aero_kit.png; sourceTree = "<group>"; };
+		6D8C432D219ADE96009A53EA /* horn_replacement_and_pedestrian_horns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horn_replacement_and_pedestrian_horns.png; sourceTree = "<group>"; };
+		6D8C432E219ADE96009A53EA /* autopilot_1_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autopilot_1_0.png; sourceTree = "<group>"; };
+		6D8C432F219ADE96009A53EA /* suspension.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suspension.png; sourceTree = "<group>"; };
+		6D8C4330219ADE96009A53EA /* 72_amp_charger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72_amp_charger.png; sourceTree = "<group>"; };
+		6D8C4331219ADE96009A53EA /* roof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roof.png; sourceTree = "<group>"; };
+		6D8C4332219ADE96009A53EA /* paint_protection_film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paint_protection_film.png; sourceTree = "<group>"; };
+		6D8C4333219ADE96009A53EA /* ludicrous_speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ludicrous_speed.png; sourceTree = "<group>"; };
+		6D8C4334219ADE96009A53EA /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		6D8C4335219ADE96009A53EA /* 80_amp_charger_dual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80_amp_charger_dual.png; sourceTree = "<group>"; };
+		6D8C4336219ADE96009A53EA /* partial_freepartial_paid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partial_freepartial_paid.png; sourceTree = "<group>"; };
+		6D8C4337219ADE96009A53EA /* RWD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RWD.png; sourceTree = "<group>"; };
+		6D8C4338219ADE96009A53EA /* premium_interior_lighting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = premium_interior_lighting.png; sourceTree = "<group>"; };
+		6D8C4339219ADE96009A53EA /* wraps_and_custom_paint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wraps_and_custom_paint.png; sourceTree = "<group>"; };
+		6D8C433A219ADE96009A53EA /* manual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manual.png; sourceTree = "<group>"; };
+		6D8C433B219ADE96009A53EA /* AutoPilot 3.0 (EAP).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AutoPilot 3.0 (EAP).png"; sourceTree = "<group>"; };
+		6D8C433C219ADE96009A53EA /* towing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towing.png; sourceTree = "<group>"; };
+		6D8C433D219ADE96009A53EA /* smart_air_suspension.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smart_air_suspension.png; sourceTree = "<group>"; };
+		6D8C433E219ADE96009A53EA /* spoiler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spoiler.png; sourceTree = "<group>"; };
+		6D8C433F219ADE96009A53EA /* wireless_car_charging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireless_car_charging.png; sourceTree = "<group>"; };
+		6D8C4340219ADE96009A53EA /* tires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tires.png; sourceTree = "<group>"; };
+		6D8C4341219ADE96009A53EA /* 48_amp_charger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 48_amp_charger.png; sourceTree = "<group>"; };
+		6D8C4342219ADE96009A53EA /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		6D8C4343219ADE96009A53EA /* window_tint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_tint.png; sourceTree = "<group>"; };
+		6D8C4344219ADE96009A53EA /* rear_facing_seats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_facing_seats.png; sourceTree = "<group>"; };
+		6D8C4345219ADE96009A53EA /* 72_amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72_amp.png; sourceTree = "<group>"; };
+		6D8C4346219ADE96009A53EA /* coat_hooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coat_hooks.png; sourceTree = "<group>"; };
+		6D8C4347219ADE96009A53EA /* parcel_shelf_auto_lift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parcel_shelf_auto_lift.png; sourceTree = "<group>"; };
+		6D8C4348219ADE96009A53EA /* partial_free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partial_free.png; sourceTree = "<group>"; };
+		6D8C4349219ADE96009A53EA /* parking_assist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parking_assist.png; sourceTree = "<group>"; };
+		6D8C434A219ADE96009A53EA /* autopilot_1.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autopilot_1.0.png; sourceTree = "<group>"; };
+		6D8C434B219ADE96009A53EA /* dashcams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashcams.png; sourceTree = "<group>"; };
+		6D8C434C219ADE96009A53EA /* exterior_chrome_changes_blackout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exterior_chrome_changes_blackout.png; sourceTree = "<group>"; };
+		6D8C434D219ADE96009A53EA /* Sunroof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunroof.png; sourceTree = "<group>"; };
+		6D8C434E219ADE96009A53EA /* bike_or_trailer_hitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike_or_trailer_hitch.png; sourceTree = "<group>"; };
+		6D8C434F219ADE96009A53EA /* pedals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pedals.png; sourceTree = "<group>"; };
+		6D8C4350219ADE96009A53EA /* wheels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheels.png; sourceTree = "<group>"; };
+		6D8C4351219ADE96009A53EA /* nose_cone_grill_replacement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nose_cone_grill_replacement.png; sourceTree = "<group>"; };
+		6D8C4352219ADE96009A53EA /* wireless_phone_charging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireless_phone_charging.png; sourceTree = "<group>"; };
+		6D8C4353219ADE96009A53EA /* 40_amp_charger_single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40_amp_charger_single.png; sourceTree = "<group>"; };
+		6D8C4354219ADE96009A53EA /* performance_upgrade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = performance_upgrade.png; sourceTree = "<group>"; };
+		6D8C4355219ADE96009A53EA /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
+		6D8C4356219ADE96009A53EA /* autopilot_2.5_eap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autopilot_2.5_eap.png; sourceTree = "<group>"; };
+		6D8C4357219ADE96009A53EA /* phone_accessory_mounting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_accessory_mounting.png; sourceTree = "<group>"; };
+		6DAFC301214B77C20053507C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6DAFC304214B78100053507C /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		6DAFC308214B85830053507C /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		6DAFC30A214B8FAC0053507C /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		6DAFC30C214B942E0053507C /* InstagramLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLoginVC.swift; sourceTree = "<group>"; };
+		6DB9940E21706BE100BB93CB /* NoteableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteableCell.swift; sourceTree = "<group>"; };
+		6DB9940F21706BE100BB93CB /* NoteableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteableCell.xib; sourceTree = "<group>"; };
+		6DB994122170A69B00BB93CB /* MarketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketCell.xib; sourceTree = "<group>"; };
+		6DB994132170A69B00BB93CB /* MarketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketCell.swift; sourceTree = "<group>"; };
+		6DD9E6FD214F7CCE00BED1F8 /* KeyboardPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardPicker.swift; sourceTree = "<group>"; };
+		6DE732CC216B241F00ED24F1 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		6DE732CD216B241F00ED24F1 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		6DE732CE216B241F00ED24F1 /* NVActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVActivityIndicatorView.h; sourceTree = "<group>"; };
+		6DE732CF216B241F00ED24F1 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		6DE732D0216B241F00ED24F1 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		6DE732D1216B241F00ED24F1 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		6DE732D2216B241F00ED24F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE732D4216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		6DE732D5216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		6DE732D6216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		6DE732D7216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		6DE732D8216B241F00ED24F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		6DE732D9216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		6DE732DA216B241F00ED24F1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		6DE732DB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		6DE732DC216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		6DE732DD216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		6DE732DE216B241F00ED24F1 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		6DE732DF216B241F00ED24F1 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		6DE732E0216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		6DE732E1216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		6DE732E2216B241F00ED24F1 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		6DE732E3216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		6DE732E4216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		6DE732E5216B241F00ED24F1 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		6DE732E6216B241F00ED24F1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		6DE732E7216B241F00ED24F1 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		6DE732E8216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		6DE732E9216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		6DE732EA216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		6DE732EB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		6DE732EC216B241F00ED24F1 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		6DE732ED216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		6DE732EE216B241F00ED24F1 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		6DE732EF216B241F00ED24F1 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		6DE732F0216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		6DE732F1216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		6DE732F2216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		6DE732F3216B241F00ED24F1 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		6DEED691214A4872003BF1B4 /* RegisterCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCarVC.swift; sourceTree = "<group>"; };
+		6DEED693214A5738003BF1B4 /* BrowseCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCarVC.swift; sourceTree = "<group>"; };
+		6DEED697214A614F003BF1B4 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		6DEED699214A67B1003BF1B4 /* CarDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailVC.swift; sourceTree = "<group>"; };
+		6DEED69B214A8124003BF1B4 /* Tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tesla.jpg; sourceTree = "<group>"; };
+		AE3CC84DDB64A63770B5CF32 /* Pods-TotalTeslaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotalTeslaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TotalTeslaTests/Pods-TotalTeslaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7E50C22F5B17F149A8C94F9 /* Pods-TotalTeslaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotalTeslaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TotalTeslaUITests/Pods-TotalTeslaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D65596CB6D4C7DA2289C66AF /* Pods_TotalTeslaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotalTeslaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE7A265E6AF15BB9D235190 /* Pods-TotalTesla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotalTesla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TotalTesla/Pods-TotalTesla.debug.xcconfig"; sourceTree = "<group>"; };
+		F936549ABA0D78289A686DA7 /* Pods_TotalTeslaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotalTeslaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +325,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C71ABE76B42B337B6C16891 /* Pods_TotalTesla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +333,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2E6287F5B9FF8F4B3004FF /* Pods_TotalTeslaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +341,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236BEDBC6EDB24D09500EA57 /* Pods_TotalTeslaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61D01090CEDAA9EB20745443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D9331B56D6FB04EEA809BB1 /* Pods_TotalTesla.framework */,
+				D65596CB6D4C7DA2289C66AF /* Pods_TotalTeslaTests.framework */,
+				F936549ABA0D78289A686DA7 /* Pods_TotalTeslaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D396E70219D77D600A3A03A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D396E71219D780500A3A03A /* CarDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6D5461BE2147BB2400B4FE54 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +373,8 @@
 				6D5461DE2147BB2B00B4FE54 /* TotalTeslaTests */,
 				6D5461E92147BB2B00B4FE54 /* TotalTeslaUITests */,
 				6D5461C82147BB2400B4FE54 /* Products */,
+				958E94EC2235797040110E83 /* Pods */,
+				61D01090CEDAA9EB20745443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +391,20 @@
 		6D5461C92147BB2400B4FE54 /* TotalTesla */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C4310219ADE96009A53EA /* Resources */,
+				6DB9940D21706B9B00BB93CB /* Cell */,
+				6DD9E6FB214F7CA400BED1F8 /* Lib */,
+				6D396E70219D77D600A3A03A /* Model */,
+				6DEED69B214A8124003BF1B4 /* Tesla.jpg */,
 				6D5461CA2147BB2400B4FE54 /* AppDelegate.swift */,
-				6D5461CC2147BB2400B4FE54 /* ViewController.swift */,
+				6D5461F82147D27800B4FE54 /* ViewControllers */,
+				6DAFC303214B77E90053507C /* Utility */,
 				6D5461CE2147BB2400B4FE54 /* Main.storyboard */,
 				6D5461D12147BB2B00B4FE54 /* Assets.xcassets */,
 				6D5461D32147BB2B00B4FE54 /* LaunchScreen.storyboard */,
 				6D5461D62147BB2B00B4FE54 /* Info.plist */,
+				6DAFC30A214B8FAC0053507C /* credentials.plist */,
+				6D3E404421A7E20A002E89D3 /* TotalTesla-Bridging-Header.h */,
 			);
 			path = TotalTesla;
 			sourceTree = "<group>";
@@ -125,6 +427,207 @@
 			path = TotalTeslaUITests;
 			sourceTree = "<group>";
 		};
+		6D5461F82147D27800B4FE54 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D5461CC2147BB2400B4FE54 /* ViewController.swift */,
+				6DEED697214A614F003BF1B4 /* SignupVC.swift */,
+				6DAFC301214B77C20053507C /* LoginVC.swift */,
+				6D5CA534219BE25B00EF643B /* LinkEmailVC.swift */,
+				6D5CA536219BF24D00EF643B /* ProfileInfoVC.swift */,
+				6D5461F92147E56D00B4FE54 /* RegisterUserVC.swift */,
+				6DEED691214A4872003BF1B4 /* RegisterCarVC.swift */,
+				6DEED693214A5738003BF1B4 /* BrowseCarVC.swift */,
+				6DEED699214A67B1003BF1B4 /* CarDetailVC.swift */,
+				6DAFC30C214B942E0053507C /* InstagramLoginVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6D8C4310219ADE96009A53EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C4311219ADE96009A53EA /* autopilot_2.0_eap.png */,
+				6D8C4312219ADE96009A53EA /* lighting_enhancements_and_accents.png */,
+				6D8C4313219ADE96009A53EA /* autopilot_2_5.png */,
+				6D8C4314219ADE96009A53EA /* liftgate_assist.png */,
+				6D8C4315219ADE96009A53EA /* Premium Ultra High Fidelity Sound.png */,
+				6D8C4316219ADE96009A53EA /* 40_amp.png */,
+				6D8C4317219ADE96009A53EA /* wood_trim_alternatives.png */,
+				6D8C4318219ADE96009A53EA /* sub_zero_cold_Weather.png */,
+				6D8C4319219ADE96009A53EA /* paid_supercharging.png */,
+				6D8C431A219ADE96009A53EA /* subwoofer.png */,
+				6D8C431B219ADE96009A53EA /* frunk_assist.png */,
+				6D8C431C219ADE96009A53EA /* free_unlimited.png */,
+				6D8C431D219ADE96009A53EA /* radar_ detector.png */,
+				6D8C431E219ADE96009A53EA /* 48_amp.png */,
+				6D8C431F219ADE96009A53EA /* autopilot_2_0.png */,
+				6D8C4320219ADE96009A53EA /* hidden_front_license_plate.png */,
+				6D8C4321219ADE96009A53EA /* roof_ rack.png */,
+				6D8C4322219ADE96009A53EA /* power.png */,
+				6D8C4323219ADE96009A53EA /* full_self_driving.png */,
+				6D8C4324219ADE96009A53EA /* center_console.png */,
+				6D8C4325219ADE96009A53EA /* brakes.png */,
+				6D8C4326219ADE96009A53EA /* AWD.png */,
+				6D8C4327219ADE96009A53EA /* 80_amp.png */,
+				6D8C4328219ADE96009A53EA /* speakers.png */,
+				6D8C4329219ADE96009A53EA /* Metal Roof.png */,
+				6D8C432A219ADE96009A53EA /* custom_interior.png */,
+				6D8C432B219ADE96009A53EA /* front_curb_camera.png */,
+				6D8C432C219ADE96009A53EA /* body_aero_kit.png */,
+				6D8C432D219ADE96009A53EA /* horn_replacement_and_pedestrian_horns.png */,
+				6D8C432E219ADE96009A53EA /* autopilot_1_0.png */,
+				6D8C432F219ADE96009A53EA /* suspension.png */,
+				6D8C4330219ADE96009A53EA /* 72_amp_charger.png */,
+				6D8C4331219ADE96009A53EA /* roof.png */,
+				6D8C4332219ADE96009A53EA /* paint_protection_film.png */,
+				6D8C4333219ADE96009A53EA /* ludicrous_speed.png */,
+				6D8C4334219ADE96009A53EA /* other.png */,
+				6D8C4335219ADE96009A53EA /* 80_amp_charger_dual.png */,
+				6D8C4336219ADE96009A53EA /* partial_freepartial_paid.png */,
+				6D8C4337219ADE96009A53EA /* RWD.png */,
+				6D8C4338219ADE96009A53EA /* premium_interior_lighting.png */,
+				6D8C4339219ADE96009A53EA /* wraps_and_custom_paint.png */,
+				6D8C433A219ADE96009A53EA /* manual.png */,
+				6D8C433B219ADE96009A53EA /* AutoPilot 3.0 (EAP).png */,
+				6D8C433C219ADE96009A53EA /* towing.png */,
+				6D8C433D219ADE96009A53EA /* smart_air_suspension.png */,
+				6D8C433E219ADE96009A53EA /* spoiler.png */,
+				6D8C433F219ADE96009A53EA /* wireless_car_charging.png */,
+				6D8C4340219ADE96009A53EA /* tires.png */,
+				6D8C4341219ADE96009A53EA /* 48_amp_charger.png */,
+				6D8C4342219ADE96009A53EA /* audio.png */,
+				6D8C4343219ADE96009A53EA /* window_tint.png */,
+				6D8C4344219ADE96009A53EA /* rear_facing_seats.png */,
+				6D8C4345219ADE96009A53EA /* 72_amp.png */,
+				6D8C4346219ADE96009A53EA /* coat_hooks.png */,
+				6D8C4347219ADE96009A53EA /* parcel_shelf_auto_lift.png */,
+				6D8C4348219ADE96009A53EA /* partial_free.png */,
+				6D8C4349219ADE96009A53EA /* parking_assist.png */,
+				6D8C434A219ADE96009A53EA /* autopilot_1.0.png */,
+				6D8C434B219ADE96009A53EA /* dashcams.png */,
+				6D8C434C219ADE96009A53EA /* exterior_chrome_changes_blackout.png */,
+				6D8C434D219ADE96009A53EA /* Sunroof.png */,
+				6D8C434E219ADE96009A53EA /* bike_or_trailer_hitch.png */,
+				6D8C434F219ADE96009A53EA /* pedals.png */,
+				6D8C4350219ADE96009A53EA /* wheels.png */,
+				6D8C4351219ADE96009A53EA /* nose_cone_grill_replacement.png */,
+				6D8C4352219ADE96009A53EA /* wireless_phone_charging.png */,
+				6D8C4353219ADE96009A53EA /* 40_amp_charger_single.png */,
+				6D8C4354219ADE96009A53EA /* performance_upgrade.png */,
+				6D8C4355219ADE96009A53EA /* coil.png */,
+				6D8C4356219ADE96009A53EA /* autopilot_2.5_eap.png */,
+				6D8C4357219ADE96009A53EA /* phone_accessory_mounting.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DAFC303214B77E90053507C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6DAFC304214B78100053507C /* CommonUtility.swift */,
+				6DAFC308214B85830053507C /* AppConstant.swift */,
+				6D13AF0C217AEEF600A7FC99 /* AFURLSource.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6DB9940D21706B9B00BB93CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB994132170A69B00BB93CB /* MarketCell.swift */,
+				6DB994122170A69B00BB93CB /* MarketCell.xib */,
+				6DB9940E21706BE100BB93CB /* NoteableCell.swift */,
+				6DB9940F21706BE100BB93CB /* NoteableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6DD9E6FB214F7CA400BED1F8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6DE732CB216B241F00ED24F1 /* NVActivityIndicatorView */,
+				6DD9E6FC214F7CB400BED1F8 /* JBKeyboardPicker */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6DD9E6FC214F7CB400BED1F8 /* JBKeyboardPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6DD9E6FD214F7CCE00BED1F8 /* KeyboardPicker.swift */,
+			);
+			name = JBKeyboardPicker;
+			path = "../New Group/New Group";
+			sourceTree = "<group>";
+		};
+		6DE732CB216B241F00ED24F1 /* NVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				6DE732CC216B241F00ED24F1 /* NVActivityIndicatorAnimationDelegate.swift */,
+				6DE732CD216B241F00ED24F1 /* NVActivityIndicatorPresenter.swift */,
+				6DE732CE216B241F00ED24F1 /* NVActivityIndicatorView.h */,
+				6DE732CF216B241F00ED24F1 /* NVActivityIndicatorShape.swift */,
+				6DE732D0216B241F00ED24F1 /* NVActivityIndicatorView.swift */,
+				6DE732D1216B241F00ED24F1 /* NVActivityIndicatorViewable.swift */,
+				6DE732D2216B241F00ED24F1 /* Info.plist */,
+				6DE732D3216B241F00ED24F1 /* Animations */,
+			);
+			path = NVActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		6DE732D3216B241F00ED24F1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6DE732D4216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				6DE732D5216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				6DE732D6216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				6DE732D7216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				6DE732D8216B241F00ED24F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				6DE732D9216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				6DE732DA216B241F00ED24F1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				6DE732DB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				6DE732DC216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScale.swift */,
+				6DE732DD216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				6DE732DE216B241F00ED24F1 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				6DE732DF216B241F00ED24F1 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				6DE732E0216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				6DE732E1216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				6DE732E2216B241F00ED24F1 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				6DE732E3216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				6DE732E4216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				6DE732E5216B241F00ED24F1 /* NVActivityIndicatorAnimationBlank.swift */,
+				6DE732E6216B241F00ED24F1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				6DE732E7216B241F00ED24F1 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				6DE732E8216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				6DE732E9216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				6DE732EA216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScale.swift */,
+				6DE732EB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				6DE732EC216B241F00ED24F1 /* NVActivityIndicatorAnimationPacman.swift */,
+				6DE732ED216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				6DE732EE216B241F00ED24F1 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				6DE732EF216B241F00ED24F1 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				6DE732F0216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				6DE732F1216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				6DE732F2216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				6DE732F3216B241F00ED24F1 /* NVActivityIndicatorAnimationOrbit.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		958E94EC2235797040110E83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7A265E6AF15BB9D235190 /* Pods-TotalTesla.debug.xcconfig */,
+				214D80A48114525A86FEEE20 /* Pods-TotalTesla.release.xcconfig */,
+				1E45CB7AE9799BE16CB42D22 /* Pods-TotalTeslaTests.debug.xcconfig */,
+				AE3CC84DDB64A63770B5CF32 /* Pods-TotalTeslaTests.release.xcconfig */,
+				C7E50C22F5B17F149A8C94F9 /* Pods-TotalTeslaUITests.debug.xcconfig */,
+				55DBFAFD94E27B30927173CF /* Pods-TotalTeslaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +635,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D5461EF2147BB2B00B4FE54 /* Build configuration list for PBXNativeTarget "TotalTesla" */;
 			buildPhases = (
+				BE66AD53B37B7951CE210C03 /* [CP] Check Pods Manifest.lock */,
 				6D5461C32147BB2400B4FE54 /* Sources */,
 				6D5461C42147BB2400B4FE54 /* Frameworks */,
 				6D5461C52147BB2400B4FE54 /* Resources */,
+				E2E3EDCBADC0CC2C61AFCC3B /* [CP] Embed Pods Frameworks */,
+				80032E1B14709E27D5ECC30D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +655,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D5461F22147BB2B00B4FE54 /* Build configuration list for PBXNativeTarget "TotalTeslaTests" */;
 			buildPhases = (
+				9AED7B1E940907E5D112B8C5 /* [CP] Check Pods Manifest.lock */,
 				6D5461D72147BB2B00B4FE54 /* Sources */,
 				6D5461D82147BB2B00B4FE54 /* Frameworks */,
 				6D5461D92147BB2B00B4FE54 /* Resources */,
@@ -167,6 +674,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D5461F52147BB2B00B4FE54 /* Build configuration list for PBXNativeTarget "TotalTeslaUITests" */;
 			buildPhases = (
+				BE4E3C022F43EBD256A4B690 /* [CP] Check Pods Manifest.lock */,
 				6D5461E22147BB2B00B4FE54 /* Sources */,
 				6D5461E32147BB2B00B4FE54 /* Frameworks */,
 				6D5461E42147BB2B00B4FE54 /* Resources */,
@@ -193,6 +701,7 @@
 				TargetAttributes = {
 					6D5461C62147BB2400B4FE54 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
 					};
 					6D5461DA2147BB2B00B4FE54 = {
 						CreatedOnToolsVersion = 9.4;
@@ -229,9 +738,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8C4391219ADE96009A53EA /* autopilot_1.0.png in Resources */,
+				6D8C4365219ADE96009A53EA /* 48_amp.png in Resources */,
+				6D8C4378219ADE96009A53EA /* roof.png in Resources */,
+				6D8C4369219ADE96009A53EA /* power.png in Resources */,
+				6D8C437C219ADE96009A53EA /* 80_amp_charger_dual.png in Resources */,
+				6D8C4366219ADE96009A53EA /* autopilot_2_0.png in Resources */,
+				6D8C4374219ADE96009A53EA /* horn_replacement_and_pedestrian_horns.png in Resources */,
+				6D8C4397219ADE96009A53EA /* wheels.png in Resources */,
+				6D8C435A219ADE96009A53EA /* autopilot_2_5.png in Resources */,
+				6D8C4372219ADE96009A53EA /* front_curb_camera.png in Resources */,
+				6D8C437B219ADE96009A53EA /* other.png in Resources */,
+				6D8C4367219ADE96009A53EA /* hidden_front_license_plate.png in Resources */,
+				6D8C4383219ADE96009A53EA /* towing.png in Resources */,
+				6D8C4384219ADE96009A53EA /* smart_air_suspension.png in Resources */,
+				6D8C437D219ADE96009A53EA /* partial_freepartial_paid.png in Resources */,
+				6D8C4386219ADE96009A53EA /* wireless_car_charging.png in Resources */,
+				6D8C438A219ADE96009A53EA /* window_tint.png in Resources */,
+				6D8C4362219ADE96009A53EA /* frunk_assist.png in Resources */,
+				6D8C438D219ADE96009A53EA /* coat_hooks.png in Resources */,
+				6D8C436A219ADE96009A53EA /* full_self_driving.png in Resources */,
+				6D8C4389219ADE96009A53EA /* audio.png in Resources */,
+				6D8C439B219ADE96009A53EA /* performance_upgrade.png in Resources */,
+				6D8C4359219ADE96009A53EA /* lighting_enhancements_and_accents.png in Resources */,
+				6D8C436E219ADE96009A53EA /* 80_amp.png in Resources */,
+				6D8C436F219ADE96009A53EA /* speakers.png in Resources */,
+				6D8C4371219ADE96009A53EA /* custom_interior.png in Resources */,
+				6D8C4399219ADE96009A53EA /* wireless_phone_charging.png in Resources */,
+				6D8C4380219ADE96009A53EA /* wraps_and_custom_paint.png in Resources */,
+				6D8C437F219ADE96009A53EA /* premium_interior_lighting.png in Resources */,
+				6D8C4370219ADE96009A53EA /* Metal Roof.png in Resources */,
+				6D8C4392219ADE96009A53EA /* dashcams.png in Resources */,
+				6D8C4363219ADE96009A53EA /* free_unlimited.png in Resources */,
+				6D8C4368219ADE96009A53EA /* roof_ rack.png in Resources */,
+				6D8C4396219ADE96009A53EA /* pedals.png in Resources */,
 				6D5461D52147BB2B00B4FE54 /* LaunchScreen.storyboard in Resources */,
+				6D8C435D219ADE96009A53EA /* 40_amp.png in Resources */,
 				6D5461D22147BB2B00B4FE54 /* Assets.xcassets in Resources */,
+				6D8C4393219ADE96009A53EA /* exterior_chrome_changes_blackout.png in Resources */,
+				6D8C436D219ADE96009A53EA /* AWD.png in Resources */,
+				6D8C4361219ADE96009A53EA /* subwoofer.png in Resources */,
+				6DB994142170A69B00BB93CB /* MarketCell.xib in Resources */,
+				6D8C4387219ADE96009A53EA /* tires.png in Resources */,
+				6DAFC30B214B8FAC0053507C /* credentials.plist in Resources */,
+				6D8C4377219ADE96009A53EA /* 72_amp_charger.png in Resources */,
+				6D8C435B219ADE96009A53EA /* liftgate_assist.png in Resources */,
+				6D8C4398219ADE96009A53EA /* nose_cone_grill_replacement.png in Resources */,
+				6D8C436C219ADE96009A53EA /* brakes.png in Resources */,
+				6D8C4390219ADE96009A53EA /* parking_assist.png in Resources */,
+				6D8C4360219ADE96009A53EA /* paid_supercharging.png in Resources */,
+				6D8C435E219ADE96009A53EA /* wood_trim_alternatives.png in Resources */,
+				6D8C439C219ADE96009A53EA /* coil.png in Resources */,
+				6D8C4364219ADE96009A53EA /* radar_ detector.png in Resources */,
+				6D8C439E219ADE96009A53EA /* phone_accessory_mounting.png in Resources */,
 				6D5461D02147BB2400B4FE54 /* Main.storyboard in Resources */,
+				6D8C438B219ADE96009A53EA /* rear_facing_seats.png in Resources */,
+				6D8C438F219ADE96009A53EA /* partial_free.png in Resources */,
+				6D8C4358219ADE96009A53EA /* autopilot_2.0_eap.png in Resources */,
+				6D8C4388219ADE96009A53EA /* 48_amp_charger.png in Resources */,
+				6D8C437E219ADE96009A53EA /* RWD.png in Resources */,
+				6D8C438E219ADE96009A53EA /* parcel_shelf_auto_lift.png in Resources */,
+				6D8C436B219ADE96009A53EA /* center_console.png in Resources */,
+				6D8C4394219ADE96009A53EA /* Sunroof.png in Resources */,
+				6D8C4395219ADE96009A53EA /* bike_or_trailer_hitch.png in Resources */,
+				6D8C4375219ADE96009A53EA /* autopilot_1_0.png in Resources */,
+				6D8C439A219ADE96009A53EA /* 40_amp_charger_single.png in Resources */,
+				6D8C437A219ADE96009A53EA /* ludicrous_speed.png in Resources */,
+				6D8C4385219ADE96009A53EA /* spoiler.png in Resources */,
+				6D8C4381219ADE96009A53EA /* manual.png in Resources */,
+				6D8C439D219ADE96009A53EA /* autopilot_2.5_eap.png in Resources */,
+				6DEED69C214A8125003BF1B4 /* Tesla.jpg in Resources */,
+				6D8C4382219ADE96009A53EA /* AutoPilot 3.0 (EAP).png in Resources */,
+				6D8C435C219ADE96009A53EA /* Premium Ultra High Fidelity Sound.png in Resources */,
+				6D8C4373219ADE96009A53EA /* body_aero_kit.png in Resources */,
+				6D8C438C219ADE96009A53EA /* 72_amp.png in Resources */,
+				6DB9941121706BE200BB93CB /* NoteableCell.xib in Resources */,
+				6D8C4379219ADE96009A53EA /* paint_protection_film.png in Resources */,
+				6D8C4376219ADE96009A53EA /* suspension.png in Resources */,
+				6D8C435F219ADE96009A53EA /* sub_zero_cold_Weather.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +835,187 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80032E1B14709E27D5ECC30D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TotalTesla/Pods-TotalTesla-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotalTesla/Pods-TotalTesla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AED7B1E940907E5D112B8C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TotalTeslaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4E3C022F43EBD256A4B690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TotalTeslaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE66AD53B37B7951CE210C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TotalTesla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E3EDCBADC0CC2C61AFCC3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TotalTesla/Pods-TotalTesla-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotalTesla/Pods-TotalTesla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D5461C32147BB2400B4FE54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE73308216B241F00ED24F1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				6DAFC305214B78100053507C /* CommonUtility.swift in Sources */,
+				6DE7330B216B241F00ED24F1 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				6DE732FB216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				6DE7330F216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				6DE73312216B241F00ED24F1 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				6DE732F7216B241F00ED24F1 /* NVActivityIndicatorView.swift in Sources */,
+				6DE7330C216B241F00ED24F1 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				6DE73317216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				6DB994152170A69B00BB93CB /* MarketCell.swift in Sources */,
+				6DE73307216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				6DAFC309214B85830053507C /* AppConstant.swift in Sources */,
+				6DD9E6FE214F7CCE00BED1F8 /* KeyboardPicker.swift in Sources */,
+				6DE73311216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				6DB9941021706BE200BB93CB /* NoteableCell.swift in Sources */,
+				6DE73302216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				6DE73316216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				6DE73315216B241F00ED24F1 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				6DE7330A216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				6D13AF0D217AEEF600A7FC99 /* AFURLSource.swift in Sources */,
+				6DE73319216B241F00ED24F1 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				6DE73310216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				6DAFC30D214B942E0053507C /* InstagramLoginVC.swift in Sources */,
+				6DE73305216B241F00ED24F1 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				6DEED698214A614F003BF1B4 /* SignupVC.swift in Sources */,
+				6DE732FC216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				6D5461FA2147E56D00B4FE54 /* RegisterUserVC.swift in Sources */,
+				6DE732FF216B241F00ED24F1 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				6D5CA535219BE25B00EF643B /* LinkEmailVC.swift in Sources */,
+				6DE732FD216B241F00ED24F1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				6DE73301216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				6DAFC302214B77C20053507C /* LoginVC.swift in Sources */,
+				6DE73313216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				6DE732F5216B241F00ED24F1 /* NVActivityIndicatorPresenter.swift in Sources */,
 				6D5461CD2147BB2400B4FE54 /* ViewController.swift in Sources */,
+				6DE73309216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				6DE73300216B241F00ED24F1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				6DE732F8216B241F00ED24F1 /* NVActivityIndicatorViewable.swift in Sources */,
+				6DE73304216B241F00ED24F1 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				6DEED692214A4872003BF1B4 /* RegisterCarVC.swift in Sources */,
+				6D396E72219D780500A3A03A /* CarDetailModel.swift in Sources */,
 				6D5461CB2147BB2400B4FE54 /* AppDelegate.swift in Sources */,
+				6DE732FA216B241F00ED24F1 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				6DE732FE216B241F00ED24F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				6DE7330D216B241F00ED24F1 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				6D5CA537219BF24D00EF643B /* ProfileInfoVC.swift in Sources */,
+				6DE732F4216B241F00ED24F1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				6DE732F6216B241F00ED24F1 /* NVActivityIndicatorShape.swift in Sources */,
+				6DE73303216B241F00ED24F1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				6DE73314216B241F00ED24F1 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				6DEED694214A5738003BF1B4 /* BrowseCarVC.swift in Sources */,
+				6DEED69A214A67B1003BF1B4 /* CarDetailVC.swift in Sources */,
+				6DE7330E216B241F00ED24F1 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				6DE73306216B241F00ED24F1 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				6DE73318216B241F00ED24F1 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,16 +1186,24 @@
 		};
 		6D5461F02147BB2B00B4FE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE7A265E6AF15BB9D235190 /* Pods-TotalTesla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NH22A9LPC;
 				INFOPLIST_FILE = TotalTesla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TotalTesla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TotalTesla/TotalTesla-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +1211,23 @@
 		};
 		6D5461F12147BB2B00B4FE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214D80A48114525A86FEEE20 /* Pods-TotalTesla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NH22A9LPC;
 				INFOPLIST_FILE = TotalTesla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TotalTesla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TotalTesla/TotalTesla-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +1235,7 @@
 		};
 		6D5461F32147BB2B00B4FE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E45CB7AE9799BE16CB42D22 /* Pods-TotalTeslaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +1256,7 @@
 		};
 		6D5461F42147BB2B00B4FE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3CC84DDB64A63770B5CF32 /* Pods-TotalTeslaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +1277,7 @@
 		};
 		6D5461F62147BB2B00B4FE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E50C22F5B17F149A8C94F9 /* Pods-TotalTeslaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +1297,7 @@
 		};
 		6D5461F72147BB2B00B4FE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DBFAFD94E27B30927173CF /* Pods-TotalTeslaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
