@@ -12,6 +12,7 @@ import UIKit
 let utils : CommonUtility = CommonUtility()
 
 let MSG = "COMMIT IN FEATURE BRANCH"
+let MSG_COMMON = "MSG COMMON"
 
 let kAppName = "TotalTesla"
 let themeColor = UIColor(red:0.00, green:0.62, blue:0.95, alpha:1.0)
